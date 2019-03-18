@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteBase /childtracking/childtrackingapi/
+	RewriteRule ^index\.php$ - [L]
+	RewriteRule . /childtracking/childtrackingapi/index.php [L]
+</IfModule>
